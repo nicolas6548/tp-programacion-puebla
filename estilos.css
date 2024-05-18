@@ -12,3 +12,30 @@
     background-attachment: fixed;
 
  }
+
+ hd{
+  border: 3px solid black;
+ }
+
+ .tablas{
+  background-color: black ;
+  border: 1px solid red;
+  color: white;
+ }
+
+ .tr td{
+  border: 1px solid wheat ;
+ }
+
+ tr td{
+  border: 1px solid wheat ;
+ }
+
+.encabezado-body{
+  background: black;
+}
+
+.h1Encabezado{
+  color: antiquewhite;
+  text-align: center;
+}
