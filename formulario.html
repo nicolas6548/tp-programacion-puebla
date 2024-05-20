@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios, mapas y +</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>FORMULARIO DE VISITANTES</h1>
+    <p style="color:red;"><strong>* Campos requeridos</strong></p>
+    <form action="./show_data.html">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="apenom">Apellido y nombre:</label>
+                <input required name="nombre" type="text" id="apenom"><span style="color:red;">*</span><br>
+            <label>
+                Email:
+                <input required name="email" type="email"><span style="color:red;">*</span>
+            </label><br>
+            <label>
+                DNI:
+                <input required type="number" min="10000000" max="99999999"><span style="color:red;">*</span>
+            </label>
+            <label>
+                Fecha de nacimiento:
+                <input type="date">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Datos extras</legend>
+            <p>Elige tus colores favoritos</p>
+            <label>
+                Rojo
+                <input type="checkbox" name="color1" value="ROJO">
+            </label>
+            <label>
+                Azul
+                <input type="checkbox" name="color2" value="AZUL">
+            </label>
+            <label>
+                Verde
+                <input type="checkbox" name="color3" value="VERDE">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Talle de ropa</legend>
+            <label>
+                Chico
+                <input type="radio" name="talle" value="SMALL">
+            </label>
+            <label>
+                Mediano
+                <input type="radio" name="talle" value="MEDIUM">
+            </label>
+            <label>
+                Grande
+                <input type="radio" name="talle" value="LARGE">
+            </label>
+        </fieldset>
+        <p>Nacionalidad</p>
+        <select name="nacionalidad" id="">
+            <option selected disabled>Nacionalidad</option>
+            <option value="CAMPEON MUNDIAL">Argentina</option>
+            <option value="CHILE">Chile</option>
+            <option value="URUGUAY">Uruguay</option>
+        </select>
+        <br>
+        <input type="submit">
+    </form>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>

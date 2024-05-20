@@ -1,0 +1,138 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: antiquewhite;
+    min-height: 10vh;
+    padding: 1rem;
+}
+
+header img{
+    width: 10%;
+    object-fit: contain;
+    transition: all .6s;
+}
+
+header:hover img{
+    transform: translate(150px) rotate(1turn);
+}
+
+h1{
+    display: inline-block;   
+    font-size: 4rem;
+    margin-left: 2rem;
+    width: 80%;
+    text-align: center;
+    color: green;
+    transform: rotate(20deg);
+}
+
+nav{
+    background-color: orange;
+    min-height: 5vh;
+    padding: 1.5rem;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    display: inline-block;
+    width: 8rem;
+    height: 2.5rem;
+    text-align: center;
+    padding: 0.6rem;
+    text-decoration: none;
+    font-weight: bolder;
+    /* padding: 1rem 2rem; */
+    background-color: green;
+    color: white;
+    border-radius: 1rem;
+    transition: all .6s;
+}
+
+a[href="#"]{
+    color: greenyellow;
+    background-color: pink;
+}
+
+a:hover{
+    background-color: rgb(185, 218, 20);
+    color: black;
+    transform: scale(1.2) rotate(-3deg);
+}
+
+main{
+    background-color: rgb(102, 136, 122);
+    min-height: 80vh;
+    padding: 1rem;
+}
+
+main>h2{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+section{
+    background-color: orangered;
+    margin: 1rem;
+    width: 300px;
+    height: 150px;
+    border-radius: 1rem;
+    display: inline-block;
+}
+
+section img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem 0 0 1rem;
+    transition: all .6s;
+}
+
+section:hover img{
+    transform: rotate(-6deg) scale(0.9);
+}
+
+section div{
+    display: inline-block;
+    width: 40%;
+    height: 90%;
+    padding: 1rem;
+    padding: 1rem;
+    vertical-align:top;
+}
+
+section #video{
+    background-color: orangered;
+    margin: 1rem;
+    width: 40%x;
+    height: 40%;
+    border-radius: 1rem;
+    display: inline-block;
+}
+
+section #video iframe{
+   width: 40%;
+   height: 40%;
+   
+
+}
+
+footer{
+    background-color: blueviolet;
+    min-height: 5vh;
+}
+
+footer p{
+    text-align: center;
+    padding: 1rem;
+}
